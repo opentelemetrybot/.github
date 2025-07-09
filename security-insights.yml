@@ -9,10 +9,10 @@ project:
   administrators:
     - name: Alolita Sharma
       affiliation: Apple
-    - name: Austin Parker
-      affiliation: Honeycomb
     - name: Armin Ruech
       affiliation: Dynatrace
+    - name: Austin Parker
+      affiliation: Honeycomb
     - name: Bogdan Drutu
       affiliation: Snowflake
     - name: Carlos Alberto
