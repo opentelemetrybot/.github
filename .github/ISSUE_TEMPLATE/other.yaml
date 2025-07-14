@@ -1,0 +1,23 @@
+name: Other
+description: For anything else
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! Please make sure to fill out the entire form below, providing as much context as you can in order to help us understand what you're looking for.
+
+        Before filing an issue, please be sure you have searched through [existing issues](https://github.com/search?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+org%3Aopen-telemetry&type=issues) to see if an existing issue covers your topic.
+  - type: textarea
+    attributes:
+      label: Describe your question or issue
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0
